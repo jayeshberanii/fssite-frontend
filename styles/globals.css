@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html {
+      font-family: "Urbanist", sans-serif;
+      font-size: 62.5%;
+      scrollbar-width: none;
+    }
+    body {
+      scrollbar-width: none;
+    }
+  
+    textarea,
+    input[type="text"] {
+      font-family: "Urbanist", sans-serif !important;
+    }
+  
+    input::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari/Edge */
+      font-family: "Urbanist", sans-serif !important;
+    }
+  
+    input::-ms-input-placeholder {
+      /* Microsoft Edge */
+      font-family: "Urbanist", sans-serif !important;
+    }
+  
+    input:-ms-input-placeholder {
+      /* IE 10+ */
+      font-family: "Urbanist", sans-serif !important;
+    }
+    textarea::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari/Edge */
+      font-family: "Urbanist", sans-serif !important;
+      font-size: 1.6rem;
+      font-weight: 400;
+    }
+  
+    textarea::-ms-input-placeholder {
+      /* Microsoft Edge */
+      font-family: "Urbanist", sans-serif !important;
+      font-size: 1.6rem;
+      font-weight: 400;
+    }
+  
+    textarea:-ms-input-placeholder {
+      /* IE 10+ */
+      font-family: "Urbanist", sans-serif !important;
+      font-size: 1.6rem;
+      font-weight: 400;
+    }
+  
+    h1 {
+      @apply text-[4rem] lg:leading-[50px] md:leading-[40px] font-[800];
+    }
+  
+    h2 {
+      @apply text-[3.75rem]  leading-[4.5rem] font-[800];
+    }
+    h3 {
+      @apply text-[2rem] font-[700] ;
+    }
+    h6 {
+      @apply text-[2rem] font-[700] ;
+    }
+    p {
+      @apply text-[1.6rem] leading-[2.6rem] font-[500];
+    }
+  }
+  
+
+.primary-bg{
+    background-color: #0078ad;
+}
+.primary-text{
+    color: #0078ad;
+}
+.secondary-bg{
+    background-color: #0c5273;
+}
+.secondary-text{
+    color: #0c5273;
+}
